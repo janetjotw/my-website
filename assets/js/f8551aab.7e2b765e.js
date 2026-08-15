@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([["9609"],{8208(e,s,a){a.r(s),a.d(s,{default:()=>i});var t=a(4848);a(6540);var c=a(1085);function i(){return(0,t.jsxs)(c.A,{children:[(0,t.jsx)("h1",{children:"My React page on the Docusaurus site"}),(0,t.jsx)("p",{children:"This is a React page"})]})}}}]);
