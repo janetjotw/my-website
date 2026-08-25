@@ -1,43 +1,36 @@
-# Website
+# Janet's Docusaurus Docs Hosting Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+A personal documentation and blog site built with [Docusaurus](https://docusaurus.io/), hosted on GitHub Pages at [janetjotw.github.io/my-website](https://janetjotw.github.io/my-website).
 
-## Installation
+## Content
+
+- **Docs** — Tutorials and API documentation under the `docs/` directory
+- **Blog** — Posts under the `blog/` directory
+
+## Deployment
+
+The site is automatically deployed to GitHub Pages via GitHub Actions on every push to `main`. No manual deployment steps are needed.
+
+## Local Development
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-**Note**: feel free to use the package manager of your choice.
-
-## Local Development
+Start the local dev server:
 
 ```bash
 npm run start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+The site will be available at `http://localhost:3000/my-website`. Most changes are reflected live without restarting the server.
 
 ## Build
+
+Generate the static site into the `build/` directory:
 
 ```bash
 npm run build
 ```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true npm run deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> npm run deploy
-```
-
-If you are using GitHub Pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
