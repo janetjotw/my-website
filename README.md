@@ -1,4 +1,4 @@
-# Janet's Docusaurus Docs Hosting Website
+# Janet's Docusaurus Docs' Hosting Website
 
 A personal documentation and blog site built with [Docusaurus](https://docusaurus.io/), hosted on GitHub Pages at [janetjotw.github.io/my-website](https://janetjotw.github.io/my-website).
 
