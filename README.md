@@ -34,3 +34,16 @@ Generate the static site into the `build/` directory:
 ```bash
 npm run build
 ```
+## Docker
+
+[#docker](#docker)
+
+The site can also be built and run in a container.
+
+Build the image: 
+`docker build -t my-website`
+
+Run it:
+`docker run -p 3000:3000 my-website`
+
+The site will be available at `http://localhost:3000`.
