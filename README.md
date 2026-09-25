@@ -41,7 +41,7 @@ npm run build
 The site can also be built and run in a container.
 
 Build the image: 
-`docker build -t my-website`
+`docker build -t my-website .`
 
 Run it:
 `docker run -p 3000:3000 my-website`
