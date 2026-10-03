@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Using Claude Code Skills to Write and Ship a PR Description
 
-This walkthrough covers the full flow of using a Claude Code skill — from discovering available skills, running the `pr-description` skill, to committing and pushing your changes to GitHub.
+This walkthrough covers the full flow of using a Claude Code skill from discovering available skills, running the `pr-description` skill, to committing and pushing your changes to GitHub.
 
 ---
 
@@ -16,7 +16,7 @@ Type `/skills` in the Claude Code prompt to open the skills dialog. This shows a
 /skills
 ```
 
-Skills are stored as markdown files under `~/.claude/skills/<skill-name>/SKILL.md`.
+Skills are stored as Markdown files under `~/.claude/skills/<skill-name>/SKILL.md`.
 
 ---
 
